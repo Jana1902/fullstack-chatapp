@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chatapplication-ten-black.vercel.app/",
+    origin: "https://chatapplication-ten-black.vercel.app",
     credentials: true,
   })
 );
