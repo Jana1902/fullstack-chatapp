@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: "https://chatapplication-ten-black.vercel.app",
     credentials: true,
-  })
+  })  
 );
 
 app.use("/api/auth", authRoutes);

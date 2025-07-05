@@ -7,12 +7,12 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chat-application-m53e.onrender.com"],
+    origin: ["https://chatapplication-ten-black.vercel.app"],
   },
 });
 
-export function getRecieverSocketId(userId){
-    return userSocketMap[userId];
+export function getRecieverSocketId(userId) {
+  return userSocketMap[userId];
 }
 
 const userSocketMap = {};
