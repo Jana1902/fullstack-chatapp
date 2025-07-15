@@ -3,7 +3,7 @@ import { axiosInstance } from "../lib/axios";
 import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
-const BASE_URL = "https://chat-application-m53e.onrender.com";
+const BASE_URL = "https://fullstack-chatapp-production-5710.up.railway.app";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
